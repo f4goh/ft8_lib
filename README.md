@@ -1,5 +1,12 @@
 # FT8 library 
 
+ from https://github.com/kgoba/ft8_lib
+  little changes for Arduino :
+  - kGenerator table into progmem to save RAM space
+  - RTC
+  - ad9833
+  73 F4GOH@orange.fr 
+
 A C++ implementation of FT8 protocol, mostly intended for experimental use on microcontrollers.
 
 The intent of this library is to foster experimentation with e.g. automated beacons. For example, FT8 supports free-text messages and raw telemetry data (71 bits).
